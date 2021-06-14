@@ -1,6 +1,7 @@
 DAY 1
 Learned about "What is Git?" and "What is VCS?".
 Then Took the TERMINAL CRASH COURSE.
+
 1. ls - list all the content.
 2. open . - The selected directory will open in finder.
 3. pwd - Print Working Directory / Current Path.
