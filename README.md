@@ -15,7 +15,7 @@ Then Took the <b>TERMINAL CRASH COURSE</b>
 | `open` | The selected directory will open in finder.            |
 | `pwd` | Print Working Directory / Current Path.                 |
 | `cd` | change directory / it's like double clicking on a file.  |
-| `cd..` | Back one folder.                                       |
+| `cd ..` | Back one folder.                                      |
 | `touch` | creates a file.                                       |  
 | `mkdir` |creates a directory.                                   |
 | `rm` | remove a fie.(PERMANENTLY).                              |
