@@ -4,8 +4,8 @@
 DAY 1
 ```
 Learned about "What is Git?" and "What is VCS?".  
-Git is a Version Control System.  
-VCS or Version Control System is a software that tracks and manage changes to files overtime.
+>Git is a Version Control System.  
+>VCS or Version Control System is a software that tracks and manage changes to files overtime.
 
 Then Took the <b>TERMINAL CRASH COURSE</b>
 
@@ -21,4 +21,34 @@ Then Took the <b>TERMINAL CRASH COURSE</b>
 | `rm` | remove a fie.(PERMANENTLY).                              |
 | `rm -rf` | remove a directory.(PERMANENTLY).                    |
 | `ls -a` | shows all files including hidden.                     |
+
+```
+DAY 2
+```
+- What is a "Repository" or "Repo"?       
+>It is a workspace and one thing we have to remember that every project should have different repositories.
+
+| Git Command | Description |
+| --- | --- |
+| `git init` | Creates an empty git repository.                |
+
+
+
+- Steps to Use "git init" using terminal:
+1. We open "Terminal".
+2. Go to a desired position.
+3. Make a Directory/Folder by "mkdir".
+4. Then use "git init".
+
+:warning: Do Not 'git init' a repository inside a repository.:warning:
+
+If you did make a repository inside a repository itself, then you have to delete the **folder** consisting the second repsitory.
+
+
+-COMMITTING
+>It is like a checkpoint in a game like you save at a particular time and if you die in that game then you will start from that position. Same as with coding if we bymistakenly delete the main then we would have it save online and we can use it whenever we want.
+
+
+
+
 
