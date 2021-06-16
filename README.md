@@ -71,7 +71,7 @@ DAY 2
 
 :warning: Do Not 'git init' a repository inside a repository.:warning:
 
-If you did make a repository inside a repository itself, then you have to delete the **folder** consisting the second repsitory.
+If you did make a repository inside a repository itself, then you have to delete the **folder** consisting the second repository.
 
 
 - COMMITTING
