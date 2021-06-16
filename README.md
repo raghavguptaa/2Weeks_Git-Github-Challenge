@@ -1,4 +1,4 @@
-## 20Days Git & Github Challenge
+## 2 Weeks Git & Github Challenge
 
 ### Here is a _SUMMARY_ of the topics related to git and their _PRIORITY_. 
 
