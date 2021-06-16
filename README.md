@@ -1,5 +1,34 @@
 ## 20Days Git & Github Challenge
 
+### Here is a _SUMMARY_ of the topics related to git and their _PRIORITY_. 
+
+ CRITICAL                                 |             IMPORTANT                | NICE TO KNOW |
+| :---                                    |               :---:                  |     ---:     |
+| `What is Git?`                          | `Who uses Git?`                      | `History`    |
+|` Difference between git and Github? `   | `What does Git do for us?`           | `Working with GUI `  |
+|` Config your Git name and Email `       | `Understanding .git folder`          | `Amending Commits `|
+|` Terminal `                             | `Writing Atomic Commits`             | ` `|
+|` Different ways to interact with git`   | `Writing Good Commit Messages`       | ` `|
+|` What is Git Repository `               | `Navigating Git Dcumentation`        | ` `|
+|` git init `                             | `Deleting and Renaming Branches`     | ` `|
+|` git status `                           | `Master VS Main Branch`              | ` `|
+|` The Committing Woorkflow`              | `                        `           | ` `|
+|` git add`                               | `                        `           | ` `|
+|` git log `                              | `                        `           | ` `|
+|` git commit `                           | `                        `           | ` `|
+|` .gitignore `                           | `                        `           | ` `|
+|` Branching `                            | `                        `           | ` `|
+|` git HEAD `                             | `                        `           | ` `|
+|` git branch `                           | `                        `           | ` `|
+|` git switch` or `git checkout`          | `                        `           | ` `|
+
+
+
+
+
+
+
+
 ```
 DAY 1
 ```
