@@ -9,7 +9,7 @@
 |` Config your Git name and Email `       | `Understanding .git folder`          | `Amending Commits `|
 |` Terminal `                             | `Writing Atomic Commits`             | ` `|
 |` Different ways to interact with git`   | `Writing Good Commit Messages`       | ` `|
-|` What is Git Repository `               | `Navigating Git Dcumentation`        | ` `|
+|` What is Git Repository `               | `Navigating Git Documentation`       | ` `|
 |` git init `                             | `Deleting and Renaming Branches`     | ` `|
 |` git status `                           | `Master VS Main Branch`              | ` `|
 |` The Committing Woorkflow`              | `                        `           | ` `|
