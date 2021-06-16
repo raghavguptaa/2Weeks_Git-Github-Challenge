@@ -45,7 +45,7 @@ DAY 2
 If you did make a repository inside a repository itself, then you have to delete the **folder** consisting the second repsitory.
 
 
--COMMITTING
+- COMMITTING
 >It is like a checkpoint in a game like you save at a particular time and if you die in that game then you will start from that position. Same as with coding if we bymistakenly delete the main then we would have it save online and we can use it whenever we want.
 
 
