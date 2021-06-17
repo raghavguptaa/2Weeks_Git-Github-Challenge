@@ -83,12 +83,12 @@ DAY 3
 ```
 
 The **"COMMITTING WORKFLOW"** goes like this:
-- First we Make A Folder/File and write some stuff inside it.
+<!-- - First we Make A Folder/File and write some stuff inside it.
 - Then we will use `git status` command to see if the folder is alreaady in a repo or not. If not then,
 - Then we use the `git init` command to make a `.git` hidden file. (Don't Make a .git file inside a repository).
-- Then we will use command 
-
-![alt text](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Flowchart's/GIT1.png)
+- Then we will use command  -->
+<!-- 
+![alt text](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Flowchart's/GIT1.png) -->
 
 Example!
 
@@ -98,7 +98,11 @@ Basically it's JUST THIS:
 
 ![alt text](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Flowchart's/GIT3.png)
 
+![alt text](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Flowchart's/GIT4.png)
+
 - How to Write Comments on `git commit`
 > `git commit -m "<text>" `
 
 [Here is the link how to write best `git commit` messages.](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
+
+
