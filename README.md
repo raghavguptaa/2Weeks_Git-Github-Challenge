@@ -2,25 +2,31 @@
 
 ### Here is a _SUMMARY_ of the topics related to git and their _PRIORITY_. 
 
- CRITICAL                                 |             IMPORTANT                | NICE TO KNOW |
-| :---                                    |               :---:                  |     ---:     |
-| `What is Git?`                          | `Who uses Git?`                      | `History`    |
-|` Difference between git and Github? `   | `What does Git do for us?`           | `Working with GUI `  |
-|` Config your Git name and Email `       | `Understanding .git folder`          | `Amending Commits `|
-|` Terminal `                             | `Writing Atomic Commits`             | ` `|
-|` Different ways to interact with git`   | `Writing Good Commit Messages`       | ` `|
-|` What is Git Repository `               | `Navigating Git Documentation`       | ` `|
-|` git init `                             | `Deleting and Renaming Branches`     | ` `|
-|` git status `                           | `Master VS Main Branch`              | ` `|
-|` The Committing Woorkflow`              | `                        `           | ` `|
-|` git add`                               | `                        `           | ` `|
-|` git log `                              | `                        `           | ` `|
-|` git commit `                           | `                        `           | ` `|
-|` .gitignore `                           | `                        `           | ` `|
-|` Branching `                            | `                        `           | ` `|
-|` git HEAD `                             | `                        `           | ` `|
-|` git branch `                           | `                        `           | ` `|
-|` git switch` or `git checkout`          | `                        `           | ` `|
+ CRITICAL                                 |             IMPORTANT                | NICE TO KNOW  |
+| :---                                    |               :---:                  |     ---:      |
+| DAY 1                                                                                          |
+| `What is Git?`                          | `Who uses Git?`                      | `History`     |
+|` Difference between git and Github? `   | `What does Git do for us?`           |               |
+| DAY 2                                                                                          |
+|` Config your Git name and Email `       | `Understanding .git folder`          |               |
+|` Terminal `                             |                                      |    |
+|` Different ways to interact with git`   |                                      |    |
+| DAY 3                                                                               |
+|` What is Git Repository `               |                                      |    |
+|` git init `                             |                                      |    |
+|` git status `                           |                                      |    |
+|` The Committing Woorkflow`              |                                      |    |
+|` git add`                               |                                      |    |
+|` git log `                              |                                      |    |
+|` git commit `                           |                                      |    |
+| DAY 4                                                                               |
+|` .gitignore `                           | ` WRITING Atomic Commits `           | `Working with GUI `|
+|                                         | ` Good Commit Messages.  `           | `Amending Commits `|
+| DAY 5                                                                               |
+|`Branching `                             | ` Navigating Git Dcumentation `      |    |
+|` git HEAD `                             |                                      |    |
+|` git branch `                           |                                      |    |
+|` git switch` or `git checkout`          |                                      |    |
 
 
 
