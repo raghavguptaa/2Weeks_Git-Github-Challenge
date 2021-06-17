@@ -23,7 +23,7 @@
 |` .gitignore `                           | ` WRITING Atomic Commits `           | `Working with GUI `|
 |                                         | ` Good Commit Messages.  `           | `Amending Commits `|
 | DAY 5                                                                               |
-|`Branching `                             | ` Navigating Git Dcumentation `      |    |
+|`Branching `                             | ` Navigating Git Documentation `     |    |
 |` git HEAD `                             |                                      |    |
 |` git branch `                           |                                      |    |
 |` git switch` or `git checkout`          |                                      |    |
