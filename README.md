@@ -75,7 +75,7 @@ If you did make a repository inside a repository itself, then you have to delete
 
 
 - COMMITTING
->It is like a checkpoint in a game like you save at a particular time and if you die in that game then you will start from that position. Same as with coding if we bymistakenly delete the main then we would have it save online and we can use it whenever we want.
+>In Git, commit is the term used for saving changes. Git does not add changes to a commit automatically. You need to indicate which file and changes need to be saved before running the Git commit command. The commit command does not save changes in remote servers, only in the local repository of Git.
 
 
 ```
@@ -83,6 +83,10 @@ DAY 3
 ```
 
 The **"COMMITTING WORKFLOW"** goes like this:
+- First we Make A Folder/File and write some stuff inside it.
+- Then we will use `git status` command to see if the folder is alreaady in a repo or not. If not then,
+- Then we use the `git init` command to make a `.git` hidden file. (Don't Make a .git file inside a repository).
+- Then we will use command 
 
 ![alt text](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Flowchart's/GIT1.png)
 
