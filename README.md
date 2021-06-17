@@ -9,16 +9,16 @@
 |` Difference between git and Github? `   | `What does Git do for us?`           |               |
 | DAY 2                                                                                          |
 |` Config your Git name and Email `       | `Understanding .git folder`          |               |
-|` Terminal `                             |                                      |    |
+|` Terminal Crash Course `                |                                      |    |
 |` Different ways to interact with git`   |                                      |    |
 | DAY 3                                                                               |
 |` What is Git Repository `               |                                      |    |
 |` git init `                             |                                      |    |
 |` git status `                           |                                      |    |
-|` The Committing Woorkflow`              |                                      |    |
 |` git add`                               |                                      |    |
 |` git log `                              |                                      |    |
 |` git commit `                           |                                      |    |
+|` The Committing Workflow`               |                                      |    |
 | DAY 4                                                                               |
 |` .gitignore `                           | ` WRITING Atomic Commits `           | `Working with GUI `|
 |                                         | ` Good Commit Messages.  `           | `Amending Commits `|
@@ -38,9 +38,16 @@
 ```
 DAY 1
 ```
+
+
+
 - "What is Git?" and "What is VCS?".  
 >Git is a Version Control System.  
 >VCS or Version Control System is a software that tracks and manage changes to files overtime.
+>Which changes were made?
+>Who made the changes?
+>When were the changes made?
+>Why were changes needed?
 
 - Difference Between Git and Github.
 
@@ -59,9 +66,15 @@ DAY 1
 
  
 
+
+
+
 ```
 DAY 2
 ```
+
+
+
 
 - Configure your Git name and Email.
 > 1. Open the command line.
@@ -84,16 +97,34 @@ DAY 2
 | `rm -rf` | remove a directory.(PERMANENTLY).                    |
 | `ls -a` | shows all files including hidden.                     |
 
+- Different ways to interact with git.
+> There are Two ways, one is the command line and the other is with use of different applications like GitKraken, Github Desktop, etc.
 
 
-- What is a "Repository" or "Repo"?       
->It is a workspace and one thing we have to remember that every project should have different repositories.
+- Understanding the .git Folder.
+> The . git folder contains all the information that is necessary for your project in version control and all the information about commits, remote repository address, etc. All of them are present in this folder. It also contains a log that stores your commit history so that you can roll back to history.
+
+
+
+
+```
+DAY 3
+```
+
+
+
+
+- What is a "Repository" or "Repo"? For Detail go to [this](https://www.geeksforgeeks.org/what-is-a-git-repository/) link.
+>Repositories in GIT contain a collection of files of various different versions of a Project. These files are imported from the repository into the local server of the user for further updations and modifications in the content of the file.
+
 
 | Git Command | Description |
 | --- | --- |
-| `git init` | Creates an empty git repository.                |
-
-
+| `git init` | initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.   |
+| `git status` | shows the status of changes as untracked, modified, or staged. |
+| `git add`    | This command performs staging, the second part of that three-step process. Any changes that are staged will become a part of the next snapshot and a part of the project’s history. |
+| `git log`    | The git log command shows a list of all the commits made to a repository. You can see the hash of each Git commit, the message associated with each commit, and more metadata. |
+| `git commit` | saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that’s been staged with git add will become a part of the snapshot with git commit.  |
 
 - Steps to Use "git init" using terminal:
 1. We open "Terminal".
@@ -106,13 +137,6 @@ DAY 2
 If you did make a repository inside a repository itself, then you have to delete the **folder** consisting the second repository.
 
 
-- COMMITTING
->In Git, commit is the term used for saving changes. Git does not add changes to a commit automatically. You need to indicate which file and changes need to be saved before running the Git commit command. The commit command does not save changes in remote servers, only in the local repository of Git.
-
-
-```
-DAY 3
-```
 
 The **"COMMITTING WORKFLOW"** goes like this:
 <!-- - First we Make A Folder/File and write some stuff inside it.
