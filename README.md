@@ -138,7 +138,7 @@ If you did make a repository inside a repository itself, then you have to delete
 
 
 
-The **"COMMITTING WORKFLOW"** goes like this:
+- The **"COMMITTING WORKFLOW"** goes like this:
 <!-- - First we Make A Folder/File and write some stuff inside it.
 - Then we will use `git status` command to see if the folder is alreaady in a repo or not. If not then,
 - Then we use the `git init` command to make a `.git` hidden file. (Don't Make a .git file inside a repository).
@@ -159,6 +159,6 @@ Basically it's JUST THIS:
 - How to Write Comments on `git commit`
 > `git commit -m "<text>" `
 
-[Here is the link how to write best `git commit` messages.](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
+[Here is the link how to write best git commit messages.](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
 
 
