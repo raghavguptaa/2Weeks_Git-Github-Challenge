@@ -97,3 +97,4 @@ Basically it's JUST THIS:
 - How to Write Comments on `git commit`
 > `git commit -m "<text>" `
 
+[Here is the link how to write best `git commit` messages.](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
