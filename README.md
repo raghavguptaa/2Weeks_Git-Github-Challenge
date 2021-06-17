@@ -57,7 +57,19 @@ DAY 1
 - [What does Git Do for us?](https://medium.com/swlh/git-as-the-newbies-learning-steroid-963a2146220b)
 - [Histroy of GIT.](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
 
- <b>TERMINAL CRASH COURSE</b>
+ 
+
+```
+DAY 2
+```
+
+- Configure your Git name and Email.
+> 1. Open the command line.
+> 2. Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+> 3. Set your email address: git config --global user.email "MY_NAME@example.com"
+
+
+<b>TERMINAL CRASH COURSE</b>
 
 | Command | Description |
 | --- | --- |
@@ -72,9 +84,8 @@ DAY 1
 | `rm -rf` | remove a directory.(PERMANENTLY).                    |
 | `ls -a` | shows all files including hidden.                     |
 
-```
-DAY 2
-```
+
+
 - What is a "Repository" or "Repo"?       
 >It is a workspace and one thing we have to remember that every project should have different repositories.
 
