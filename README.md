@@ -156,9 +156,52 @@ Basically it's JUST THIS:
 
 ![alt text](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Flowchart's/GIT4.png)
 
+
+
+
+
+
+```
+DAY 4
+```
+
+
+
+- .What are gitignore files?
+> Specifies intentionally untracked files to ignore.
+> Example: There are projects where you use some API's like Stripe or Paypal for user transactions and you don't want to put the authentic key to github. So we put the file name in .gitignore folder. 
+> There is a website which gives us all the .gitignore file names accoording to our project. You can find it [HERE](https://www.toptal.com/developers/gitignore)
+
+
+- Writing Atomic Commits.
+> An atomic commit is a commit that is focused on one context and one context only. For more info go [HERE](https://coderwall.com/p/jmqp0a/why-and-how-i-craft-atomic-commits-in-git)
+
+
 - How to Write Comments on `git commit`
 > `git commit -m "<text>" `
 
 [Here is the link how to write best git commit messages.](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
+
+
+- Working with GUI
+> You will find an answer [HERE](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Graphical-Interfaces)
+
+
+- Ammending Commits.
+
+| Git Command | Description |
+| --- | --- |
+| `git commit --amend` | This command is a convenient way to modify the most recent commit. It lets you combine staged changes with the previous commit instead of creating an entirely new commit. It can also be used to simply edit the previous commit message without changing its snapshot.  |
+
+
+
+
+
+
+```
+DAY 5
+```
+
+
 
 
