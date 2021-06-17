@@ -78,6 +78,13 @@ If you did make a repository inside a repository itself, then you have to delete
 >It is like a checkpoint in a game like you save at a particular time and if you die in that game then you will start from that position. Same as with coding if we bymistakenly delete the main then we would have it save online and we can use it whenever we want.
 
 
+```
+DAY 3
+```
+
+THE committing workflows goes like this:
+
+
 
 
 
