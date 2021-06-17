@@ -82,9 +82,18 @@ If you did make a repository inside a repository itself, then you have to delete
 DAY 3
 ```
 
-THE committing workflows goes like this:
+The **"COMMITTING WORKFLOW"** goes like this:
 
+![alt text](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Flowchart's/GIT1.png)
 
+Example!
 
+![alt text](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Flowchart's/GIT2.png)
 
+Basically it's JUST THIS:
+
+![alt text](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Flowchart's/GIT3.png)
+
+- How to Write Comments on `git commit`
+> `git commit -m "<text>" `
 
