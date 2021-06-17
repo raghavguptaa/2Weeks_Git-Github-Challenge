@@ -38,11 +38,26 @@
 ```
 DAY 1
 ```
-Learned about "What is Git?" and "What is VCS?".  
+- "What is Git?" and "What is VCS?".  
 >Git is a Version Control System.  
 >VCS or Version Control System is a software that tracks and manage changes to files overtime.
 
-Then Took the <b>TERMINAL CRASH COURSE</b>
+- Difference Between Git and Github.
+
+| Git           | Github        |
+| ------------- | ------------- |
+| Git is a software.  | GitHub is a service.  |
+| Git is a command-line tool  | GitHub is a graphical user interface  |
+| Git is installed locally on the system  | GitHub is hosted on the web |
+| Git is focused on version control and code sharing.| GitHub is focused on centralized source code hosting.  |
+| Git has no user management feature.  | GitHub has built-in user management feature  |
+
+
+- [Who uses Git?](https://stackshare.io/git#:~:text=Who%20uses%20Git%3F&text=7047%20companies%20reportedly%20use%20Git,Netflix%2C%20Shopify%2C%20and%20Udemy.)
+- [What does Git Do for us?](https://medium.com/swlh/git-as-the-newbies-learning-steroid-963a2146220b)
+- [Histroy of GIT.](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
+
+ <b>TERMINAL CRASH COURSE</b>
 
 | Command | Description |
 | --- | --- |
