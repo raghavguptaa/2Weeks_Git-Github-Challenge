@@ -226,8 +226,8 @@ DAY 5
 > When working with Git, only one branch can be checked out at a time - and this is what's called the "HEAD" branch. Often, this is also referred to as the "active" or "current" branch.
 > Git makes note of this current branch in a file located inside the Git repository, in .git/HEAD. (This is an internal file, so it should not be manually manipulated!)
 
-| Git Command | Description |
-| --- | --- |
+| Git Command     | Description |
+| ----- | ----- |
 | `git branch` | List all of the branches in your repository. This is synonymous with git branch --list.|
 | `git branch <branch>` | Create a new branch called ＜branch＞. This does not check out the new branch. |
 | `git branch -d <branch>` | Delete the specified branch.This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.|
