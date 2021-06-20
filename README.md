@@ -213,3 +213,17 @@ DAY 5
 
 - MASTER branch
 > In Git, "master" is a naming convention for a branch. After cloning (downloading) a project from a remote server, the resulting local repository has a single local branch: the so-called "master" branch. This means that "master" can be seen as a repository's `"default"` branch.
+
+| Git           | Github        |
+| ------------- | ------------- |
+| Master is Default.       | Main is Default.   |
+
+- What is "HEAD" in git?
+> When working with Git, only one branch can be checked out at a time - and this is what's called the "HEAD" branch. Often, this is also referred to as the "active" or "current" branch.
+> Git makes note of this current branch in a file located inside the Git repository, in .git/HEAD. (This is an internal file, so it should not be manually manipulated!)
+
+| Git Command | Description |
+| --- | --- |
+| `git branch` | This command is to view your existing branches. |
+> Active / Selected Branch will have a <b> "*" </b> in front of name.
+![alt]()
