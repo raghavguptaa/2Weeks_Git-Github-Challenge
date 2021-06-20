@@ -27,6 +27,12 @@
 |` git HEAD `                             |                                      |    |
 |` git branch `                           |                                      |    |
 |` git switch` or `git checkout`          |                                      |    |
+| DAY 6                                                                               |
+|`Fast Forward Merges `                   |                                      |`Using VS CODE to Resolve Conflict`|
+|`git merge `                             |                                      |    | 
+|`Resolving Merge Conflict`               |                                      |    | 
+
+ 
 
 
 
