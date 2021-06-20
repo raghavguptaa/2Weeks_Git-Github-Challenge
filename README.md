@@ -24,14 +24,18 @@
 |                                         | ` Good Commit Messages.  `           | `Amending Commits `|
 | DAY 5                                                                               |
 |`Branching `                             | ` Navigating Git Documentation `     |    |
-|` git HEAD `                             |                                      |    |
-|` git branch `                           |                                      |    |
-|` git switch` or `git checkout`          |                                      |    |
+|`git HEAD `                              |                                      |    |
+|`git branch `                            |                                      |    |
+|`git switch` or `git checkout`           |                                      |    |
 | DAY 6                                                                               |
 |`Fast Forward Merges `                   |                                      |`Using VS CODE to Resolve Conflict`|
 |`git merge `                             |                                      |    | 
 |`Resolving Merge Conflict`               |                                      |    | 
-
+| DAY 7                                                                               |
+|`Reading Diffs `                         | ` Diff Branches `                    |    |
+|` git diff `                             | ` Diffing Commets`                   |    |
+|                                         | ` Diffing Specific Files`            |    |
+|                                         | ` Git diff --staged`                 |    |
  
 
 
