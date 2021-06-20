@@ -202,12 +202,15 @@ DAY 4
 
 
 
-
-
 ```
 DAY 5
 ```
 
 
+- Branching
+> A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master . As you start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
+> If we make changes oon one branch, they do not impact other branches. (Unless we merge the changes).
 
-
+- MASTER branch
+> It is the `defualt branch`.
+> In Git, "master" is a naming convention for a branch. After cloning (downloading) a project from a remote server, the resulting local repository has a single local branch: the so-called "master" branch. This means that "master" can be seen as a repository's "default" branch.
