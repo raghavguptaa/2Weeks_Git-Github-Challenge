@@ -228,9 +228,20 @@ DAY 5
 
 | Git Command | Description |
 | --- | --- |
-| `git branch` | This command is to view your existing branches. |
+| `git branch` | List all of the branches in your repository. This is synonymous with git branch --list.|
+| `git branch <branch>` | Create a new branch called ＜branch＞. This does not check out the new branch. |
+| `git branch -d <branch>` | Delete the specified branch.This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.|
+| `git branch -D <branch>` | Force delete the specified branch, even if it has unmerged changes. This is the command to use if you want to permanently throw away all of the commits associated with a particular line of development. |
+| `git branch -m <branch>` | Rename the current branch to ＜branch＞. |
+| `git branch -a` | List all remote branches. |
+
+
+
+
 > Active / Selected Branch will have a <b> "*" </b> in front of name.
 ![alt](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Images/Git_Branch.png)
+
+
 
 
 | Git Command | Description |
