@@ -247,3 +247,7 @@ DAY 5
 | Git Command | Description |
 | --- | --- |
 | `git switch` or `git checkout` | The "switch" command allows you to switch your current HEAD branch. It's relatively new (added in Git v2.23) and provides a simpler alternative to the classic "checkout" command. For [MORE](https://www.git-tower.com/learn/git/commands/git-switch/). |
+
+
+- Navigating GIT Documentation. 
+> For Detailed Information go [HERE](https://git-scm.com/docs/user-manual)
