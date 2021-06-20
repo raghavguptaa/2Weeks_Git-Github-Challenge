@@ -226,4 +226,9 @@ DAY 5
 | --- | --- |
 | `git branch` | This command is to view your existing branches. |
 > Active / Selected Branch will have a <b> "*" </b> in front of name.
-![alt]()
+![alt](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Images/Git_Branch.png)
+
+
+| Git Command | Description |
+| --- | --- |
+| `git switch` or `git checkout` | The "switch" command allows you to switch your current HEAD branch. It's relatively new (added in Git v2.23) and provides a simpler alternative to the classic "checkout" command. For [MORE](https://www.git-tower.com/learn/git/commands/git-switch/). |
