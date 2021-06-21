@@ -263,3 +263,16 @@ DAY 6
 > A fast-forward merge can occur when there is a linear path from the current branch tip to the target branch. Instead of “actually” merging the branches, all Git has to do to integrate the histories is move (i.e., “fast forward”) the current branch tip up to the target branch tip. This effectively combines the histories, since all of the commits reachable from the target branch are now available through the current one.
 
 ![alt](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Flowchart's/Fastforward.png)
+
+| Git Command | Description |
+| --- | --- |
+| `git merge` | Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches.   |
+
+- Resolving Merge Conflicts!
+> If the two branches you're trying to merge both changed the same part of the same file, Git won't be able to figure out which version to use. When such a situation occurs, it stops right before the merge commit so that you can resolve the conflicts manually.
+
+- How Conflict's are PRESENTED!
+> When Git encounters a conflict during a merge, It will edit the content of the affected files with visual indicators that mark both sides of the conflicted content. These visual markers are: <<<<<<<, =======, and >>>>>>>. Its helpful to search a project for these indicators during a merge to find where conflicts need to be resolved.
+![alt](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Images/Git_Merge.png)
+> Generally the content before the ======= marker is the receiving branch and the part after is the merging branch.
+> Note that merge conflicts will only occur in the event of a 3-way merge. It’s not possible to have conflicting changes in a fast-forward merge. 
