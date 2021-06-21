@@ -259,11 +259,19 @@ DAY 5
 ```
 DAY 6
 ```
+- Merging
+> Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
 
 - Fast-Forward Merge
 > A fast-forward merge can occur when there is a linear path from the current branch tip to the target branch. Instead of “actually” merging the branches, all Git has to do to integrate the histories is move (i.e., “fast forward”) the current branch tip up to the target branch tip. This effectively combines the histories, since all of the commits reachable from the target branch are now available through the current one.
 
 ![alt](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Flowchart's/Fastforward.png)
+
+
+- 3 Way Merge
+> 3-way merges use a dedicated commit to tie together the two histories. The nomenclature comes from the fact that Git uses three commits to generate the merge commit: the two branch tips and their common ancestor.
+
+![alt](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Flowchart's/3WayMerge.png)
 
 | Git Command | Description |
 | --- | --- |
