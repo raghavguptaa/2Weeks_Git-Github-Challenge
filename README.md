@@ -316,3 +316,16 @@ DAY 6
 
 
 
+
+```
+DAY 7
+```
+
+
+- Reading Diffs
+> Diffing is a function that takes two input data sets and outputs the changes between them. git diff is a multi-use Git command that when executed runs a diff function on Git data sources. These data sources can be commits, branches, files and more. 
+
+
+| Git Command | Description |
+| --- | --- |
+| `git diff` | Show changes between commits, commit and working tree, etc. or  Running the plain git diff command without any parameters can be pretty helpful: it will show you all of your local changes since you last committed.|
