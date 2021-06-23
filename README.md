@@ -289,6 +289,8 @@ DAY 6
 
 
 - Git commands that can help resolve merge conflicts:
+
+
 | Git Command | Description |
 | --- | --- |
 | `git status` | The status command is in frequent use when a working with Git and during a merge it will help identify conflicted files.|
@@ -296,12 +298,16 @@ DAY 6
 | `git diff` | diff helps find differences between states of a repository/files. This is useful in predicting and preventing merge conflicts.|
 
 - Tools for when git fails to start a merge:
+
+
 | Git Command | Description |
 | --- | --- |
 | `git checkout` | checkout can be used for undoing changes to files, or for changing branches|
 | `git reset --mixed` | reset can be used to undo changes to the working directory and staging area.|
 
 - Tools for when git conflicts arise during a merge:
+
+
 | Git Command | Description |
 | --- | --- |
 | `git merge --abort` | Executing git merge with the --abort option will exit from the merge process and return the branch to the state before the merge began.|
