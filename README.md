@@ -329,3 +329,48 @@ DAY 7
 | Git Command | Description |
 | --- | --- |
 | `git diff` | Show changes between commits, commit and working tree, etc. or  Running the plain git diff command without any parameters can be pretty helpful: it will show you all of your local changes since you last committed.|
+
+- Let us Understand with an Example:
+
+![alt](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Images/Git_diff.png)
+
+If we execute git diff at this point, there will be no output. This is expected behavior as there are no changes in the repo to diff. Once the repo is created and we've added the diff_test.txt file, we can change the contents of the file to start experimenting with diff output.
+
+> $:> echo "this is a diff example" > diff_test.txt     
+
+Executing this command will change the content of the diff_test.txt file. Once modified, we can view a diff and analyze the output. Now executing git diff will produce the following output:
+
+
+![alt](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Images/git_diff_2.png)
+
+Let us now examine a more detailed breakdown of the diff output.
+
+- `Comparison input`
+> diff --git a/diff_test.txt b/diff_test.txt
+
+This line displays the input sources of the diff. We can see that a/diff_test.txt and b/diff_test.txt have been passed to the diff.
+
+- `Meta data`
+> index 6b0c6cf..b37e70a 100644
+
+This line displays some internal Git metadata. You will most likely not need this information. The numbers in this output correspond to Git object version hash identifiers.
+
+- `Markers for changes`
+> --- a/diff_test.txt     
+> +++ b/diff_test.txt     
+
+These lines are a legend that assigns symbols to each diff input source. In this case, changes from a/diff_test.txt are marked with a --- and the changes from b/diff_test.txt are marked with the +++ symbol.
+
+
+- ` Diff chunks`
+> @@ -1 +1 @@   
+> -this is a git diff test example    
+> +this is a diff example    
+
+The first line is the chunk header. Each chunk is prepended by a header inclosed within @@ symbols. The content of the header is a summary of changes made to the file. In our simplified example, we have -1 +1 meaning line one had changes. In a more realistic diff, you would see a header like:
+
+> @@ -34,6 +34,8 @@
+
+In this header example, 6 lines have been extracted starting from line number 34. Additionally, 8 lines have been added starting at line number 34.
+
+The remaining content of the diff chunk displays the recent changes. Each changed line is prepended with a + or - symbol indicating which version of the diff input the changes come from. As we previously discussed, - indicates changes from the a/diff_test.txt and + indicates changes from b/diff_test.txt.
