@@ -345,6 +345,15 @@ Executing this command will change the content of the diff_test.txt file. Once m
 
 Let us now examine a more detailed breakdown of the diff output.
 
+
+| Diff Headings  | Diff Output |
+| ------------- | ------------- |
+| Comparison input    | `diff --git a/diff_test.txt b/diff_test.txt ` |
+| Meta data           | `index 6b0c6cf..b37e70a 100644`  |
+| Markers for changes | `--- a/diff_test.txt`  `+++ b/diff_test.txt`  |
+| Diff Chunks         | `@@ -1 +1 @@  `|
+
+
 - `Comparison input`
 > diff --git a/diff_test.txt b/diff_test.txt
 
@@ -374,3 +383,7 @@ The first line is the chunk header. Each chunk is prepended by a header inclosed
 In this header example, 6 lines have been extracted starting from line number 34. Additionally, 8 lines have been added starting at line number 34.
 
 The remaining content of the diff chunk displays the recent changes. Each changed line is prepended with a + or - symbol indicating which version of the diff input the changes come from. As we previously discussed, - indicates changes from the a/diff_test.txt and + indicates changes from b/diff_test.txt.
+
+
+
+
