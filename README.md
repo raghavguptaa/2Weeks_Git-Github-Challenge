@@ -386,4 +386,11 @@ The remaining content of the diff chunk displays the recent changes. Each change
 
 
 
+- Diffing Commands!
 
+| Command | Description |
+| --- | --- |
+| `git diff branch1..branch2` | Using this command, Git will compare the tip of both branches (also called the HEAD) and display a “diff” recap that you can use to see modifications. |
+| `git diff <commit-id> <commit-id>` | To view the changes between two commits, you can provide the commit hashes. The hash can be a full SHA-1 hash or a short SHA-1 hash or ancestry path. |
+
+For MORE INFO on DIFFING COMMANDS go [HERE](https://git-scm.com/docs/git-diff)
