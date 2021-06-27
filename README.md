@@ -2,8 +2,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### Here is a _SUMMARY_ of the topics related to git and their _PRIORITY_. 
-
- CRITICAL                                 |             IMPORTANT                | NICE TO KNOW  |
+```diff
+First we will talk abut "GIT"
+```
+|CRITICAL                                 |             IMPORTANT                | NICE TO KNOW  |
 | :---                                    |               :---:                  |     ---:      |
 | DAY 1                                                                                          |
 | `What is Git?`                          | `Who uses Git?`                      | `History`     |
@@ -29,7 +31,7 @@
 |`git branch `                            |                                      |    |
 |`git switch` or `git checkout`           |                                      |    |
 | DAY 6                                                                               |
-|`Merging `                             |                                      |    | 
+|`Merging `                               |                                      |    | 
 |`Fast Forward Merges `                   |                                      |    |
 |`git merge `                             |                                      |    | 
 |`Resolving Merge Conflict`               |                                      |    | 
@@ -38,6 +40,15 @@
 |` git diff `                             | ` Diffing Commets`                   |    |
 |                                         | ` Diffing Specific Files`            |    |
 |                                         | ` Git diff --staged`                 |    |
+| DAY 8                                                                               |
+|                                         | ` Git Stash Basics `                 | `Git Stash Apply`   |
+|                                         | ` git stash save `                   | `Dropping & Clearing the Stash`|
+|                                         | ` git stash pop`                     | `Working with Multiple Stashes`  |
+| DAY 9                                                                               |
+|` Checking out Commits  `                | `Discarding Changes With Checkout`   |    |
+|` Escaping Detached HEAD`                | `git restore`                        |    |
+|                                         | `git reset`                          |    |
+|                                         | `git revert`                         |    |
  
 
 
