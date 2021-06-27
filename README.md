@@ -344,17 +344,6 @@ DAY 7
 
 - Let us Understand with an Example:
 
-![alt](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Images/Git_diff.png)
-
-If we execute git diff at this point, there will be no output. This is expected behavior as there are no changes in the repo to diff. Once the repo is created and we've added the diff_test.txt file, we can change the contents of the file to start experimenting with diff output.
-
-> $:> echo "this is a diff example" > diff_test.txt     
-
-Executing this command will change the content of the diff_test.txt file. Once modified, we can view a diff and analyze the output. Now executing git diff will produce the following output:
-
-
-![alt](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Images/git_diff_2.png)
-
 
 ``` terminal
 $:> mkdir diff_test_repo
@@ -369,6 +358,25 @@ $:> git commit -am"add diff test file"
 1 file changed, 1 insertion(+)
 create mode 100644 diff_test.txt
 ```
+
+If we execute git diff at this point, there will be no output. This is expected behavior as there are no changes in the repo to diff. Once the repo is created and we've added the diff_test.txt file, we can change the contents of the file to start experimenting with diff output.
+```
+$:> echo "this is a diff example" > diff_test.txt
+```
+Executing this command will change the content of the diff_test.txt file. Once modified, we can view a diff and analyze the output. Now executing git diff will produce the following output:
+
+``` terminal
+diff --git a/diff_test.txt b/diff_test.txt
+index 6b0c6cf..b37e70a 100644
+--- a/diff_test.txt
++++ b/diff_test.txt
+@@ -1 +1 @@
+-this is a git diff test example
++this is a diff example
+```
+
+<!-- ![alt](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Images/git_diff_2.png) -->
+
 
 Let us now examine a more detailed breakdown of the diff output.
 
