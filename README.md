@@ -41,9 +41,9 @@ First we will talk abut "GIT"
 |                                         | ` Diffing Specific Files`            |    |
 |                                         | ` Git diff --staged`                 |    |
 | DAY 8                                                                               |
-|                                         | ` Git Stash Basics `                 | `Git Stash Apply`   |
-|                                         | ` git stash save `                   | `Dropping & Clearing the Stash`|
-|                                         | ` git stash pop`                     | `Working with Multiple Stashes`  |
+|                                         | ` Git Stash Basics `                 | `Re-applying your stashed changes`   |
+|                                         | ` Stashing git `                     | `Stashing untracked or ignored files`|
+|                                         | ` git stash pop`                     | `Managing multiple stashes`  |
 | DAY 9                                                                               |
 |` Checking out Commits  `                | `Discarding Changes With Checkout`   |    |
 |` Escaping Detached HEAD`                | `git restore`                        |    |
@@ -355,6 +355,21 @@ Executing this command will change the content of the diff_test.txt file. Once m
 
 ![alt](https://github.com/raghavguptaa/2Weeks_Git-Github-Challenge/blob/main/Images/git_diff_2.png)
 
+
+``` terminal
+$:> mkdir diff_test_repo
+$:> cd diff_test_repo
+$:> touch diff_test.txt
+$:> echo "this is a git diff test example" > diff_test.txt
+$:> git init .
+Initialized empty Git repository in /Users/kev/code/test/.git/
+$:> git add diff_test.txt
+$:> git commit -am"add diff test file"
+[main (root-commit) 6f77fc3] add diff test file
+1 file changed, 1 insertion(+)
+create mode 100644 diff_test.txt
+```
+
 Let us now examine a more detailed breakdown of the diff output.
 
 
@@ -474,13 +489,7 @@ Dropped refs/stash@{0} (32b3aa1d185dfe6d57b3c3cc3b32cbf3e380cc6a)
 
 - Stashing untracked or ignored files
 
-> By default, running git stash will stash:
-> changes that have been added to your index (staged changes)
-> changes made to files that are currently tracked by Git (unstaged changes)
-> But it will not stash:
-> new files in your working copy that have not yet been staged
-> files that have been ignored
-> So if we add a third file to our example above, but don't stage it (i.e. we don't run git add), git stash won't stash it.
+By default, running git stash will stash: changes that have been added to your index (staged changes) changes made to files that are currently tracked by Git (unstaged changes). But it will not stash: new files in your working copy that have not yet been staged files that have been ignored. So if we add a third file to our example above, but don't stage it (i.e. we don't run git add), git stash won't stash it.
 
 
 
