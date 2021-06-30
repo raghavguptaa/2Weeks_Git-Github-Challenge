@@ -1,6 +1,7 @@
 ## 2 Weeks Git & Github Challenge
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+
 ### Here is a _SUMMARY_ of the topics related to git and their _PRIORITY_. 
 ```diff
 First we will talk abut "GIT"
